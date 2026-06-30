@@ -1,71 +1,41 @@
-# Learning Journal - Reverse Engineering
+# learning-journal
 
-Selamat datang di repository **Learning Journal Reverse Engineering**.
+Repository ini berisi dokumentasi proses pembelajaran saya selama mengikuti mata kuliah Reverse Engineering selama satu semester.
 
-Repository ini dibuat sebagai dokumentasi perjalanan belajar saya selama mengikuti mata kuliah **Reverse Engineering**. Selama satu semester, saya mempelajari berbagai konsep dasar hingga praktik analisis binary dan malware menggunakan tools yang umum digunakan di bidang keamanan siber.
+Tujuan repository ini adalah untuk mencatat perkembangan pemahaman saya terhadap konsep, tools, dan teknik yang digunakan dalam reverse engineering, mulai dari pengenalan dasar hingga analisis binary dan malware.
 
-Tujuan utama repository ini bukan hanya untuk menyimpan catatan, tetapi juga sebagai bentuk dokumentasi progres belajar secara konsisten dari minggu ke minggu.
+Setiap folder merepresentasikan catatan pembelajaran mingguan yang berisi materi yang dipelajari, hal-hal yang saya pahami, serta bagian yang masih ingin saya pelajari lebih dalam.
 
-## Tujuan Pembelajaran
-
-Melalui repository ini, saya ingin:
-
-* Mendokumentasikan proses belajar secara terstruktur
-* Memahami konsep dasar Reverse Engineering
-* Mempelajari teknik Static Analysis dan Dynamic Analysis
-* Menggunakan tools analisis binary secara langsung
-* Melatih kemampuan analisis terhadap malware dan executable file
-
-## Topik Pembelajaran
-
-Beberapa topik utama yang dipelajari selama semester ini meliputi:
+Topik yang dipelajari dalam repository ini mencakup:
 
 * Fundamental Reverse Engineering
-* Pengenalan Binary dan PE File
 * Static Analysis
 * Dynamic Analysis
-* String Analysis
-* Import Table Analysis
+* PE File Analysis
 * Malware Analysis
 * Crackme Challenge
 
-## Tools yang Digunakan
+## Repository Structure
 
-Selama proses pembelajaran, saya menggunakan beberapa tools berikut:
-
-* Ghidra
-* IDA Free
-* Wireshark
-* Process Monitor
-* Detect It Easy
-* PE-bear
-* VirtualBox
-
-## 🗂 Struktur Repository
-
-Repository ini berisi catatan pembelajaran mingguan dalam format Markdown.
-
-```bash
+```bash id="lmh9f3"
 learning-journal/
 ├── README.md
-├── week-01.md
-├── week-02.md
-├── week-03.md
-├── week-04.md
-├── week-05.md
-├── week-06.md
-├── week-07.md
-└── week-08.md
+├── week-01/
+│   └── README.md
+├── week-02/
+│   └── README.md
+├── week-03/
+│   └── README.md
+├── week-04/
+│   └── README.md
+├── week-05/
+│   └── README.md
+├── week-06/
+│   └── README.md
+├── week-07/
+│   └── README.md
+└── week-08/
+    └── README.md
 ```
 
-Setiap file mingguan berisi:
-
-* Materi yang dipelajari
-* Hal yang saya pahami
-* Hal yang masih perlu saya pelajari lebih lanjut
-
-## Disclaimer
-
-Seluruh isi repository ini dibuat untuk tujuan edukasi dan pembelajaran dalam mata kuliah Reverse Engineering.
-
-Semua analisis dilakukan di lingkungan yang aman dan terisolasi (virtual machine) untuk menghindari risiko terhadap sistem utama.
+Semua dokumentasi dalam repository ini dibuat untuk tujuan edukasi dan pembelajaran.
